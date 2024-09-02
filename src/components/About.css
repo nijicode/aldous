@@ -1,0 +1,26 @@
+.tab-link::after {
+  content: "";
+  width: 0;
+  height: 5px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s;
+  background: burlywood;
+}
+.tab-link.active-link::after {
+  width: 50%;
+}
+.profile-pic {
+  animation: blob 5s alternate infinite;
+  transition: all 0.5s ease;
+}
+
+@keyframes blob {
+  from {
+    border-radius: 27% 73% 40% 60% / 53% 55% 45% 47%;
+  }
+  to {
+    border-radius: 74% 26% 68% 32% / 52% 57% 43% 48%;
+  }
+}

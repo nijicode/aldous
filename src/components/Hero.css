@@ -1,0 +1,67 @@
+.blob {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  filter: blur(50px);
+}
+.one {
+  background-color: white;
+  top: -20%;
+  left: -10%;
+  opacity: 0.3;
+  animation: one 45s infinite alternate;
+}
+.two {
+  background-color: burlywood;
+  top: 30%;
+  right: -30%;
+  opacity: 0.3;
+  animation: two 45s infinite alternate;
+}
+
+@keyframes one {
+  0% {
+    top: -20%;
+    left: -10%;
+  }
+  25% {
+    top: 20%;
+    left: 35%;
+  }
+  50% {
+    top: 30%;
+    left: 70%;
+  }
+  75% {
+    top: 0%;
+    left: 60%;
+  }
+  100% {
+    top: -20%;
+    left: -10%;
+  }
+}
+
+@keyframes two {
+  0% {
+    top: 30%;
+    right: -30%;
+  }
+  25% {
+    top: 20%;
+    right: 40%;
+  }
+  50% {
+    top: -20%;
+    right: 80%;
+  }
+  75% {
+    top: 50%;
+    right: 50%;
+  }
+  100% {
+    top: 30%;
+    right: -30%;
+  }
+}
