@@ -62,25 +62,29 @@ const Contact = () => {
         </div>
         <div className="flex gap-4 text-3xl mb-4">
           <a
-            href=""
+            href="https://www.facebook.com/aldous.estacio.5/"
+            target="_blank"
             className="hover:scale-125 duration-500 hover:text-[burlywood]"
           >
             <FaSquareFacebook />
           </a>
           <a
-            href=""
+            href="https://github.com/nijicode"
+            target="_blank"
             className="hover:scale-125 duration-500 hover:text-[burlywood]"
           >
             <FaSquareGithub />
           </a>
           <a
-            href=""
+            href="https://www.freecodecamp.org/certification/Programmer_Aldous/responsive-web-design"
+            target="_blank"
             className="hover:scale-125 duration-500 hover:text-[burlywood]"
           >
             <FaFreeCodeCamp />
           </a>
           <a
-            href=""
+            href="www.linkedin.com/in/john-aldous-estacio-9917952a8"
+            target="_blank"
             className="hover:scale-125 duration-500 hover:text-[burlywood]"
           >
             <IoLogoLinkedin />
