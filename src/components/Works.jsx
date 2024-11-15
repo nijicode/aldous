@@ -18,7 +18,7 @@ const Works = () => {
     {
       name: "art-cafe",
       repoLink: "https://github.com/nijicode/The-Art-Cafe-",
-      webLink: "https://art-cafe.sar.great-site.net/",
+      webLink: "https://the-art-cafe.onrender.com/",
       details:
         "I developed a modern, functional website for the coffee shop where my dad manages in Saudi Arabia using the MERN stack. I integrated Firebase for file storage, MongoDB for text data, and Socket.io for real-time updates. The design features a clean, user-friendly interface created with DaisyUI and Tailwind CSS.",
       img: artCafe,

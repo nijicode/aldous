@@ -83,7 +83,7 @@ const Contact = () => {
             <FaFreeCodeCamp />
           </a>
           <a
-            href="www.linkedin.com/in/john-aldous-estacio-9917952a8"
+            href="https://www.linkedin.com/in/john-aldous-estacio-9917952a8/"
             target="_blank"
             className="hover:scale-125 duration-500 hover:text-[burlywood]"
           >

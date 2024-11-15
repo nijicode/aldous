@@ -63,7 +63,7 @@ const Hero = () => {
       className="w-full z-10 h-screen overflow-x-clip overflow-y-visible flex justify-center items-center relative"
     >
       <div className=" text-center relative z-10 pointer-events-none">
-        <h1 className="text-4xl md:text-5xl justify-center lg:text-6xl flex font-bold leading-tight ">
+        <h1 className="text-2xl sm:text-4xl md:text-5xl justify-center lg:text-6xl flex font-bold leading-tight ">
           <div className="relative overflow-clip px-4">
             <div className="box absolute left-0 bottom-0 rounded-2xl -z-10 bg-gradient-to-r from-[#606c88] to-[#3f4c6b] h-1"></div>
             <span className="hi inline-block">Hi, I’m</span>
